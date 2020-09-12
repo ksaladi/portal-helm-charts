@@ -192,7 +192,7 @@ image:
 user:
   kubeNamespace: dev-portal
   legacyHostnames: false
-  legacyDatabaseNames: false
+  legacyDatabaseNames: true
   domain: example.com
   # the subdomain you would like to use for your external tenant. By providing a value, an ingress rule will be created for accessing
   analyticsEnabled: true
